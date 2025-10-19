@@ -21,7 +21,7 @@ nav ul{
     padding: 0;
 }
 nav ul li{
-    display: block;
+    display: inline;
     margin: 0 15px;
     border: 1px solid #5678;
     border-radius: 1rem;
@@ -63,3 +63,4 @@ section h2:hover{
     transition: 0.5s;
 
 }
+
