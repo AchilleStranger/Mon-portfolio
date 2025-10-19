@@ -63,4 +63,12 @@ section h2:hover{
     transition: 0.5s;
 
 }
+section ul li a{
+    text-decoration: none;
+    border: 1px solid burlywood;
+    border-radius: 0.5rem;
+    padding: 1.5px;
+    color: black;
+}
+
 
