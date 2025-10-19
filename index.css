@@ -21,7 +21,7 @@ nav ul{
     padding: 0;
 }
 nav ul li{
-    display: inline;
+    display: block;
     margin: 0 15px;
     border: 1px solid #5678;
     border-radius: 1rem;
@@ -61,4 +61,5 @@ section h2:hover{
     color: black;
     cursor: pointer;
     transition: 0.5s;
+
 }
