@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canal pour me trouver</title>
+</head>
+<body class="paragraphe-rideau">
+    <h2>Canal pour me trouver</h2>
+    <ul>
+        <li>Appel direct +228 99 45 67 35</li>
+        <li>Par E-mail sur <a href="mailto:bossouachille99@gmail.com">:bossouachille99@gmail.com</a></li>
+
+    </ul>
+    <p>Juste a travers un appel ou un message je serai a votre dispositon</p>
+    <style>
+        body{
+            background-color: olive;
+            padding: 0 12px;
+            font-family: Arial, sans-serif;
+        }
+        .paragraphe-rideau{
+            min-height: 0;
+            overflow: hidden;
+            opacity: 0;
+            transform: scaleY(0);
+            transform-origin: top;
+           animation: rideau 1.5s ease-out forwards;
+        }
+        @keyframes rideau {
+            to{
+                max-height: 500px; 
+                opacity: 1;
+                transform: scaleY(1);
+            }
+        }
+
+        
+    </style>
+</body>
+</html>
